@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <form action="" method="post">
+            <h2>Event Registration</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name">
+<br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" name="phone" id="phone">
+            <br>
+            <label for="occupation">Occupation:</label><br>
+            <select name="occupation" id="occupation">
+                <option value="O">Other</option>
+                <option value="M">Medical</option>
+                <option value="S">Shopkeeper</option>
+                <option value="E">Engineer</option>
+            </select>
+            <br>
+            <progress value="10" max="100" aria-label="content-loading">70%</progress>
+            <br>
+            <label for="toc">Topic of Interest:</label><br>
+            <input type="checkbox" name="toc" id="toc1">HTML<br>
+            <input type="checkbox" name="toc" id="toc2">CSS<br>
+            <input type="checkbox" name="toc" id="toc3">JavaScript
+            <br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <input type="button" value="Register">
+
+        </form>
+    </body>
+</html>

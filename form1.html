@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Theory</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            body{
+                background-color:crimson;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <form action="">
+
+            <fieldset>
+                <legend>Legend Form</legend> 
+                <label for="name"><b>Name: </b></label>
+                <input type="text" name="Name" id="name" placeholder="Enter Name">
+                <br/><br/>
+                <label for="passwd"><b>Password: </b></label>
+                <input type="password" name="password" id="passwd"  placeholder="Enter Password">
+                <br/><br/>
+                <label for="date">Choose Date: </label>
+                <input type="date" name="date" id="date">
+                <br><br>
+                <input type="submit" value="Click Here">
+    
+    
+                <br/><br/>
+                <label for="fruit">Select Fruits: </label>
+                <select name="Fruits" id="fruit" multiple>
+                    <option value="P" >Papaya</option>
+                    <option value="M">Mango</option>
+                    <option value="G">Grapes</option>
+                    <option value="B">Banana</option>
+                </select>
+    
+                <br/><br/>
+                <textarea name="text1" id="text1" cols="30" rows="10" placeholder="enter description..."></textarea>
+            
+                <br/><br/>
+                <label for="mobile">Mobiles</label> <br/>
+                <input type="radio" name="mobile" id="iphone"> IPhone <br/>
+                <input type="radio" name="mobile" id="samsung"> Samsung <br/>
+                <input type="radio" name="mobile" id="Lava"> Lava
+
+                <br/><br/>
+                <label for="lappy">Laptops</label> <br/>
+                <input type="checkbox" name="laptop" id="Macbook"> IPhone <br/>
+                <input type="checkbox" name="laptop" id="HP"> Samsung <br/>
+                <input type="checkbox" name="laptop" id="Dell"> Lava
+
+                
+                <br><br>
+                
+                <input type="file" name="file" id="file1" >
+
+                <br><br>
+                <input type="image" name="imageButton1" id="imageButton1" src="./logo1.png" alt="Click Here" height="40px" width="100px">
+
+
+            </fieldset>
+        
+        </form>
+    </body>
+</html>
